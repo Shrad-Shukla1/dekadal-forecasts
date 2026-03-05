@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subseasonal Dekadal Forecasts - Africa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🌍 Subseasonal Dekadal Precipitation Forecasts</h1>
+        <p class="subtitle">Downscaled & Bias-Corrected Forecasts for Africa</p>
+        <p class="update-info">Updated every dekad (10-day period)</p>
+    </header>
+
+    <main>
+        <section class="forecast-section">
+            <h2>NCEP CFSv2</h2>
+            <div class="forecast-container">
+                <img src="https://data.chc.ucsb.edu/people/shrad/SubX/Latest_maps/Bias_corrected/Dekadal/plot_bias-corrected_NCEP-CFSv2.png" 
+                     alt="NCEP CFSv2 Dekadal Forecast"
+                     loading="lazy">
+            </div>
+        </section>
+
+        <section class="forecast-section">
+            <h2>EMC GEFSv12</h2>
+            <div class="forecast-container">
+                <img src="https://data.chc.ucsb.edu/people/shrad/SubX/Latest_maps/Bias_corrected/Dekadal/plot_bias-corrected_EMC-GEFSv12.png" 
+                     alt="EMC GEFSv12 Dekadal Forecast"
+                     loading="lazy">
+            </div>
+        </section>
+
+        <section class="forecast-section">
+            <h2>ESRL FIMr1p1</h2>
+            <div class="forecast-container">
+                <img src="https://data.chc.ucsb.edu/people/shrad/SubX/Latest_maps/Bias_corrected/Dekadal/plot_bias-corrected_ESRL-FIMr1p1.png" 
+                     alt="ESRL FIMr1p1 Dekadal Forecast"
+                     loading="lazy">
+            </div>
+        </section>
+
+        <section class="forecast-section">
+            <h2>RSMAS CCSM4</h2>
+            <div class="forecast-container">
+                <img src="https://data.chc.ucsb.edu/people/shrad/SubX/Latest_maps/Bias_corrected/Dekadal/plot_bias-corrected_RSMAS-CCSM4.png" 
+                     alt="RSMAS CCSM4 Dekadal Forecast"
+                     loading="lazy">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>About</h3>
+            <p>These forecasts show bias-corrected, downscaled dekadal (10-day) precipitation predictions for Africa from the SubX (Subseasonal Experiment) project.</p>
+            
+            <h3>Data Source</h3>
+            <p>
+                <a href="https://data.chc.ucsb.edu/people/shrad/SubX/Latest_maps/Bias_corrected/Dekadal/" target="_blank">
+                    CHC Data Repository
+                </a>
+            </p>
+            
+            <h3>Models</h3>
+            <ul>
+                <li><strong>NCEP CFSv2</strong> - Climate Forecast System Version 2</li>
+                <li><strong>EMC GEFSv12</strong> - Global Ensemble Forecast System v12</li>
+                <li><strong>ESRL FIMr1p1</strong> - Flow-following Icosahedral Model</li>
+                <li><strong>RSMAS CCSM4</strong> - Community Climate System Model 4</li>
+            </ul>
+
+            <p class="copyright">
+                Climate Hazards Center, UC Santa Barbara<br>
+                <span id="last-loaded"></span>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Display when page was loaded (helps users know if they're seeing cached version)
+        document.getElementById('last-loaded').textContent = 
+            'Page loaded: ' + new Date().toLocaleString();
+        
+        // Optional: Add cache-busting to force reload of images
+        function refreshImages() {
+            const images = document.querySelectorAll('img');
+            const timestamp = new Date().getTime();
+            images.forEach(img => {
+                const src = img.src.split('?')[0];
+                img.src = src + '?t=' + timestamp;
+            });
+        }
+        
+        // Add refresh button functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Refresh images every 6 hours automatically (optional)
+            // setInterval(refreshImages, 6 * 60 * 60 * 1000);
+        });
+    </script>
+</body>
+</html>
