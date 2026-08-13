@@ -1,7 +1,3 @@
----
-marp: true
-title: West Africa SubX Forecast Briefing
----
 
 # West Africa SubX Forecast Briefing
 *Source: chc.ucsb.edu/monitoring/subx/west-africa*
@@ -14,7 +10,7 @@ title: West Africa SubX Forecast Briefing
 <tr>
 <td width="55%">
 
-![30-day Plot](briefing_images/plot_CDD_forecasts.png)
+![30-day Plot](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/CDD/plot_CDD_forecasts.png)
 
 </td>
 <td width="45%">
@@ -35,7 +31,7 @@ This multi-model forecast displays consecutive dry days (CDD) for a 30-day perio
 <tr>
 <td width="55%">
 
-![30-day Plot + Anomaly](briefing_images/plot_CDD_forecasts_anomaly.png)
+![30-day Plot + Anomaly](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/CDD/plot_CDD_forecasts_anomaly.png)
 
 </td>
 <td width="45%">
@@ -56,7 +52,7 @@ This multimodel forecast presents the consecutive dry days (CDD) anomaly relativ
 <tr>
 <td width="55%">
 
-![30-day](briefing_images/plot_ensemble_median_total_rainfall.png)
+![30-day](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/Total_rainfall/plot_ensemble_median_total_rainfall.png)
 
 </td>
 <td width="45%">
@@ -77,7 +73,7 @@ This multimodel forecast displays predicted total rainfall for West Africa over 
 <tr>
 <td width="55%">
 
-![Week 1](briefing_images/plot_ensemble_median_total_rainfall_week_1.png)
+![Week 1](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/Total_rainfall/plot_ensemble_median_total_rainfall_week_1.png)
 
 </td>
 <td width="45%">
@@ -98,7 +94,7 @@ This multimodel forecast presents the predicted total rainfall for West Africa d
 <tr>
 <td width="55%">
 
-![Week 2](briefing_images/plot_ensemble_median_total_rainfall_week_2.png)
+![Week 2](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/Total_rainfall/plot_ensemble_median_total_rainfall_week_2.png)
 
 </td>
 <td width="45%">
@@ -119,7 +115,7 @@ This multimodel forecast displays predicted total rainfall in millimeters for th
 <tr>
 <td width="55%">
 
-![Week 3](briefing_images/plot_ensemble_median_total_rainfall_week_3.png)
+![Week 3](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/Total_rainfall/plot_ensemble_median_total_rainfall_week_3.png)
 
 </td>
 <td width="45%">
@@ -140,7 +136,7 @@ This multimodel forecast displays predicted total rainfall for West Africa durin
 <tr>
 <td width="55%">
 
-![Week 4](briefing_images/plot_ensemble_median_total_rainfall_week_4.png)
+![Week 4](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/Total_rainfall/plot_ensemble_median_total_rainfall_week_4.png)
 
 </td>
 <td width="45%">
@@ -161,7 +157,7 @@ This map presents a multimodel forecast for total rainfall during week four, sta
 <tr>
 <td width="55%">
 
-![Week 1](briefing_images/plot_ensemble_median_tasmax_week_1.png)
+![Week 1](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/Average_temperature/plot_ensemble_median_tasmax_week_1.png)
 
 </td>
 <td width="45%">
@@ -182,7 +178,7 @@ This multimodel forecast displays average maximum temperature (Tmax) in degrees 
 <tr>
 <td width="55%">
 
-![Week 2](briefing_images/plot_ensemble_median_tasmax_week_2.png)
+![Week 2](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/Average_temperature/plot_ensemble_median_tasmax_week_2.png)
 
 </td>
 <td width="45%">
@@ -203,7 +199,7 @@ This multimodel forecast shows the average maximum temperature ($T_{max}$) in de
 <tr>
 <td width="55%">
 
-![Week 3](briefing_images/plot_ensemble_median_tasmax_week_3.png)
+![Week 3](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/Average_temperature/plot_ensemble_median_tasmax_week_3.png)
 
 </td>
 <td width="45%">
@@ -224,7 +220,7 @@ This subseasonal forecast displays the predicted average maximum temperature ($T
 <tr>
 <td width="55%">
 
-![Week 4](briefing_images/plot_ensemble_median_tasmax_week_4.png)
+![Week 4](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/Average_temperature/plot_ensemble_median_tasmax_week_4.png)
 
 </td>
 <td width="45%">
@@ -245,7 +241,7 @@ This multi-model forecast displays the predicted average maximum temperature (Tm
 <tr>
 <td width="55%">
 
-![Week 1](briefing_images/plot_ensemble_median_tasmin_week_1.png)
+![Week 1](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/Average_temperature/plot_ensemble_median_tasmin_week_1.png)
 
 </td>
 <td width="45%">
@@ -266,7 +262,7 @@ This forecast map displays the predicted average minimum temperature (Tmin) in d
 <tr>
 <td width="55%">
 
-![Week 2](briefing_images/plot_ensemble_median_tasmin_week_2.png)
+![Week 2](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/Average_temperature/plot_ensemble_median_tasmin_week_2.png)
 
 </td>
 <td width="45%">
@@ -287,7 +283,7 @@ This multimodel forecast displays the predicted average minimum temperature (Tmi
 <tr>
 <td width="55%">
 
-![Week 3](briefing_images/plot_ensemble_median_tasmin_week_3.png)
+![Week 3](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/Average_temperature/plot_ensemble_median_tasmin_week_3.png)
 
 </td>
 <td width="45%">
@@ -308,7 +304,7 @@ This multimodel forecast displays predicted average minimum temperatures ($T_{\t
 <tr>
 <td width="55%">
 
-![Week 4](briefing_images/plot_ensemble_median_tasmin_week_4.png)
+![Week 4](https://data.chc.ucsb.edu/people/shrad/SubX/Plots/Archive/Latest/W_Africa/Downscaled_forecasts/Average_temperature/plot_ensemble_median_tasmin_week_4.png)
 
 </td>
 <td width="45%">
